@@ -1,0 +1,139 @@
+.about-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #e6f3ec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.about-content {
+  color: black;
+  text-align: center;
+  max-width: 800px;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  z-index: 3;
+  margin-left: 15.5rem;      /* adds spacing from left */
+  margin-right: 15.5rem;  
+}
+
+
+.about-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+
+
+
+
+/* WRAPPER FOR EACH VINE + LEAVES */
+.vine-wrapper {
+  position: absolute;
+  top: -55px;
+  bottom: 0;
+  width: 100px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.left-vine {
+  left: -165px;
+}
+
+.right-vine {
+  right: -165px;
+  transform: scaleX(-1);
+}
+
+.vine {
+  height: 120%;
+  width: 675px;
+  max-width: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* LEAVES inside vine-wrapper, layered above */
+.leaf {
+  position: absolute;
+  width: 50px;
+  height: 50px; /* adjust as needed */
+  transform: rotate(-30deg);
+  animation: sway 5s ease-in-out infinite;
+  transform-origin: bottom center; /* <== changed */
+  opacity: 1;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.leaf1, .leaf7, .leaf10 {
+  top: 12%;
+  left: 345px;
+  animation-delay: 0s;
+  transform-origin: center left;  /* <-- custom for this image */
+}
+
+.leaf4 {
+  top: 12%;
+  left: 340px;
+  animation-delay: 0s;
+  transform-origin: center left;  /* <-- custom for this image */
+}
+
+.leaf8, .leaf9 {
+  transform-origin: top left; /* try tuning this further if needed */
+}
+
+.leaf img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* LEFT VINE LEAF POSITIONS */
+.leaf1 { top: 12%; left: 343px; animation-delay: 0s; }
+.leaf2 { top: 36%; left: 310px; animation-delay: 0.5s; }
+.leaf3 { top: 64%; left: 250px; animation-delay: 1s; }
+
+
+/* RIGHT VINE LEAF POSITIONS */
+.leaf4 { top: 25%; left: 322px; animation-delay: 0.2s; }
+.leaf5 { top: 40%; left: 303px; animation-delay: 0.7s; }
+.leaf6 { top: 75%; left: 295px; animation-delay: 1.2s; }
+
+/* New LEFT side leaves */
+.leaf7 { top: 20%; left: 330px; animation-delay: 0.4s; }
+.leaf8 { top: 75%; left: 275px; animation-delay: 1.4s; }
+
+/* New RIGHT side leaves */
+.leaf9 { top: 15%; left: 339px; animation-delay: 0.4s; }
+.leaf10 { top: 60%; left: 331px; animation-delay: 1.1s; }
+
+/* Optional: add unique size tweaks */
+.leaf7 img { transform: scale(-0.89); }
+.leaf8 img { transform: scale(1.1); }
+.leaf9 img { transform: scale(0.85); }
+.leaf10 img { transform: scale(1); }
+
+
+@keyframes sway {
+  0%   { transform: rotate(-30deg); }
+  50%  { transform: rotate(30deg); }
+  100% { transform: rotate(-30deg); }
+}
+

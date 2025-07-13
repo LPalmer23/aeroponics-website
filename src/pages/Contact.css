@@ -1,0 +1,182 @@
+/* Full-page background section */
+.contact-section {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #f5f9f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+}
+
+/* Main form container */
+.contact-container {
+  max-width: 800px;
+  width: 100%;
+  padding: 3rem 1.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.contact-container h1 {
+  font-size: 2.5rem;
+  color: #2e6041;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact-container p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Form layout */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #2e6041;
+  font-size: 1rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 0.3rem;
+}
+
+/* Fieldsets for checkbox groups */
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+legend {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #2e6041;
+  font-size: 1.1rem;
+}
+
+fieldset label {
+  display: block;
+  margin: 0.3rem 0;
+  font-weight: 400;
+  color: #333;
+}
+
+/* Submit button styling */
+button[type="submit"] {
+  background-color: #2e6041;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #3a7a50;
+}
+
+/* Confirmation message */
+.confirmation-message {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e6f4eb;
+  border-radius: 10px;
+  color: #2e6041;
+}
+
+.confirmation-message h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-emails {
+  margin-top: 2.5rem;
+  padding: 1.5rem 2rem;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f7fef9, #e8f6eb);
+  border: 1px solid #d3e9d9;
+  font-size: 1.1rem;
+  color: #2e6041;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-emails p {
+  margin: 0.4rem 0;
+}
+
+.contact-emails a {
+  color: #2e6041;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+}
+
+.contact-emails a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #a6d4b3;
+  transition: all 0.2s ease;
+}
+
+.contact-emails a:hover::after {
+  background-color: #3a7a50;
+}
+
+/* Align checkbox label and input horizontally */
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* space between checkbox and text */
+  margin-bottom: 0.5rem;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-top: 2px; /* slight vertical nudge to align better with text */
+}
+
+.checkbox-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.2rem; /* 👈 ADDED: slight downward shift */
+}
+
+.checkbox-options input[type="checkbox"] {
+  position: relative;
+  top: 20px; /* adjust this number as needed (1px–3px usually good) */
+}
+
+.contact-container p:first-of-type {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #cce0d4;
+}
+
+
+

@@ -1,0 +1,28 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #fdfbf8;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: 500;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar a {
+    color: #22543D;
+    text-decoration: none;
+    font-size: 1.1rem;
+    position: relative;
+  }
+  
+  .navbar a.active::after {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding-top: 4px;
+    border-bottom: 2px solid #22543D;
+  }
+  

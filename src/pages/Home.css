@@ -1,0 +1,63 @@
+/* The main hero section that takes the full screen height and centers content */
+.hero {
+    position: relative;
+    height: 100vh; /* Take full screen height */
+    width: 100vw; /* ✅ Ensure full screen width */
+    background-size: cover;
+    background-position: left top;
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    overflow: hidden; /* Prevent overflow from children */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* A transparent dark layer over the background image */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box; /* Ensures padding doesn't add extra width */
+  }
+  
+  /* Text container inside the hero image */
+  .hero-content {
+    color: white;
+    text-align: center;
+    max-width: 90%; /* Responsive width */
+    padding: 1rem;
+    box-sizing: border-box;
+    z-index: 2; /* Ensure it’s above the overlay */
+  }
+  
+  /* Style the paragraph text */
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  /* Style the call-to-action button */
+  .hero-button {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    background-color: #2e5b3a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #214127;
+  }
+  
