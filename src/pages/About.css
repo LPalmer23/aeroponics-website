@@ -99,6 +99,10 @@
   transform-origin: top left; /* try tuning this further if needed */
 }
 
+.leaf1 {
+  transform-origin: center left;
+}
+
 .leaf img {
   width: 100%;
   height: auto;
@@ -106,8 +110,7 @@
 }
 
 /* LEFT VINE LEAF POSITIONS */
-.leaf1 { top: 12%; left: 343px; animation-delay: 0s; transform-origin: top right;
- }
+.leaf1 { top: 12%; left: 343px; animation-delay: 0s; transform-origin: center left;}
 .leaf2 { top: 36%; left: 310px; animation-delay: 0.5s; }
 .leaf3 { top: 64%; left: 250px; animation-delay: 1s; }
 
@@ -131,12 +134,9 @@
 .leaf9 img { transform: scale(0.85); }
 .leaf10 img { transform: scale(1); }
 
-.leaf7, .leaf10 {
+.leaf1 {
   transform-origin: center left;
 }
-
-
-
 
 
 @keyframes sway {
