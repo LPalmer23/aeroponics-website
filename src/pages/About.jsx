@@ -2,28 +2,34 @@
 import React from 'react';
 import './About.css';
 
+import leaf1 from '../assets/leaf1.png';
+import leaf2 from '../assets/leaf2.png';
+import leaf3 from '../assets/leaf3.png';
+import vine from '../assets/OneVine.png';
+
+
 function About() {
   return (
     <div className="about-container">
 
       {/* LEFT vine and leaves together in one wrapper */}
       <div className="vine-wrapper left-vine">
-        <img src="/images/OneVine.png" className="vine" alt="Left vine" />
-        <div className="leaf leaf1"><img src="/images/leaf1.png" alt="Leaf 1" /></div>
-        <div className="leaf leaf2"><img src="/images/leaf2.png" alt="Leaf 2" /></div>
-        <div className="leaf leaf3"><img src="/images/leaf2.png" alt="Leaf 3" /></div>
-        <div className="leaf leaf7"><img src="/images/leaf1.png" alt="Leaf 7" /></div>
-        <div className="leaf leaf8"><img src="/images/leaf3.png" alt="Leaf 8" /></div>
+        <img src={vine} className="vine" alt="Left vine" />
+        <div className="leaf leaf1"><img src={leaf1} alt="Leaf 1" /></div>
+        <div className="leaf leaf2"><img src={leaf2} alt="Leaf 2" /></div>
+        <div className="leaf leaf3"><img src={leaf2} alt="Leaf 3" /></div>
+        <div className="leaf leaf7"><img src={leaf1} alt="Leaf 7" /></div>
+        <div className="leaf leaf8"><img src={leaf3} alt="Leaf 8" /></div>
       </div>
 
       {/* RIGHT vine and leaves together in one wrapper */}
       <div className="vine-wrapper right-vine">
-        <img src="/images/OneVine.png" className="vine" alt="Right vine" />
-        <div className="leaf leaf4"><img src="/images/leaf1.png" alt="Leaf 4" /></div>
-        <div className="leaf leaf5"><img src="/images/leaf2.png" alt="Leaf 5" /></div>
-        <div className="leaf leaf6"><img src="/images/leaf2.png" alt="Leaf 6" /></div>
-        <div className="leaf leaf9"><img src="/images/leaf3.png" alt="Leaf 9" /></div>
-        <div className="leaf leaf10"><img src="/images/leaf1.png" alt="Leaf 10" /></div>
+        <img src={vine} className="vine" alt="Right vine" />
+        <div className="leaf leaf4"><img src={leaf1} alt="Leaf 4" /></div>
+        <div className="leaf leaf5"><img src={leaf2} alt="Leaf 5" /></div>
+        <div className="leaf leaf6"><img src={leaf2} alt="Leaf 6" /></div>
+        <div className="leaf leaf9"><img src={leaf3} alt="Leaf 9" /></div>
+        <div className="leaf leaf10"><img src={leaf1} alt="Leaf 10" /></div>
       </div>
 
       {/* Centered Content */}
