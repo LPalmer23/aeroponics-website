@@ -14,8 +14,14 @@ function Partners() {
         <div className="partner-box">
           <h2>Student Food Rescue (SFR)</h2>
           <p>
-            SFR is one of the oldest food rescue programs in the country, run by students through BU’s Community Service Center (CSC). Volunteers collect surplus food from local grocery stores, bakeries, and restaurants and deliver it to local food pantries, shelters, and meal programs.
+          SFR is one of the oldest food rescue programs in the country, run by students through BU’s Community Service Center (CSC). Volunteers collect surplus food from local grocery stores, bakeries, and restaurants and deliver it to local food pantries, shelters, and meal programs.
           </p>
+
+          <p>
+          Through our partnership with SFR, we are donating the fresh produce grown in our vertical aeroponic towers to local food banks and shelters. These nutrient-rich greens will be used to supplement meals for individuals experiencing food insecurity. As we continue to monitor each tower’s yield, we aim to quantify how many people it can help meet the USDA’s recommended daily vegetable intake — allowing us to better understand and communicate its nutritional impact.
+          </p>
+
+
           <a href="https://www.bu.edu/csc/programs/sfr/" target="_blank" rel="noopener noreferrer">
             Learn more about SFR
           </a>

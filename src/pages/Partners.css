@@ -2,7 +2,7 @@
 .partners {
     width: 100vw; /* Full viewport width */
     min-height: 100vh; /* Full viewport height */
-    background-color: #f5f9f5; /* color background */
+    background-color: #e6f3ec; /* color background */
     display: flex; /* Center content horizontally and vertically */
     justify-content: center;
     align-items: center;

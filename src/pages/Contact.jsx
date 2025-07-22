@@ -1,20 +1,14 @@
-// src/pages/Contact.jsx
 import React, { useState } from 'react';
 import './Contact.css';
 
 function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
-
   return (
     <section className="contact-section">
       <div className="contact-wrapper">
 
-        {/* Emails block is OUTSIDE the white card now */}
+        {/* Emails block is OUTSIDE the white card */}
         <div className="contact-emails">
           <p>Reach out to us directly at:</p>
           <p>
@@ -31,13 +25,38 @@ function Contact() {
 
           {!submitted ? (
             <form
-              action="https://formspree.io/f/xpwlalze"  // Replace with your Formspree form ID
-              method="POST"
-              className="contact-form"
-              onSubmit={() => setSubmitted(true)}
-            >
-              
-              
+            className="contact-form"
+            onSubmit={(e) => {
+              e.preventDefault(); // Stop default behavior
+              const form = e.target;
+              const data = new FormData(form);
+          
+              fetch("https://formspree.io/f/xpwlalze", {
+                method: "POST",
+                body: data,
+                headers: {
+                  Accept: "application/json",
+                },
+              })
+                .then((response) => {
+                  if (response.ok) {
+                    setSubmitted(true); // ✅ Show your thank-you message
+                  } else {
+                    response.json().then((data) => {
+                      alert(data.error || "Submission failed. Please try again.");
+                    });
+                  }
+                })
+                .catch(() => {
+                  alert("Submission error. Please try again.");
+                });
+            }}
+          >
+          
+          <input type="text" name="_gotcha" style={{ display: 'none' }} />
+          
+          
+          
               <label>
                 Name*
                 <input type="text" name="name" required />
