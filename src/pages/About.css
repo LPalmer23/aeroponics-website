@@ -180,3 +180,20 @@
   font-weight: 500;
   background-color: #fdfbf8;
 }
+
+/* Ensure gallery and its cards appear above vines and leaves */
+.about-gallery {
+  position: relative;
+  z-index: 5; /* higher than .vine-wrapper (z-index: 1) and leaves (z-index: 2) */
+}
+
+.about-tile {
+  position: relative;
+  z-index: 6; /* individual images/cards even higher */
+}
+
+.about-tile img,
+.about-tile figcaption {
+  position: relative;
+  z-index: 6;
+}
