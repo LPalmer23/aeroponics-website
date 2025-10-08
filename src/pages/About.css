@@ -145,3 +145,38 @@
   100% { transform: rotate(-30deg); }
 }
 
+.about-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-tile {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  width: 320px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.about-tile:hover {
+  transform: scale(1.02);
+}
+
+.about-tile img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.about-tile figcaption {
+  padding: 12px;
+  font-size: 0.95rem;
+  color: #22543D;
+  font-weight: 500;
+  background-color: #fdfbf8;
+}

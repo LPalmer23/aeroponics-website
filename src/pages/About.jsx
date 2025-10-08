@@ -1,6 +1,8 @@
 // src/pages/About.jsx
 import React from 'react';
 import './About.css';
+import GreenPic1 from "../assets/greenPic1.png";
+import GreenPic2 from "../assets/greenPic2.png";
 
 import leaf1 from '../assets/leaf1.png';
 import leaf2 from '../assets/leaf2.png';
@@ -43,6 +45,24 @@ function About() {
           Our research also examines the collapse of recent commercial vertical farming ventures, despite billions in investment, to identify key operational pitfalls and inform more resilient, localized implementation strategies. By conserving space, water, and time, aeroponic systems offer measurable environmental benefits, including substantial reductions in carbon emissions. Our goal is to leverage these benefits while avoiding the challenges that hindered previous large-scale models.
         </p>
       </div>
+
+    {/* Two-photo gallery */}
+<div className="about-gallery">
+  <figure className="about-tile">
+    <img src={GreenPic1} alt="Aeroponic tower growth" />
+    <figcaption> Harvest! </figcaption>
+  </figure>
+
+  <figure className="about-tile">
+    <img src={GreenPic2} alt="Harvested greens" />
+    <figcaption> Our On-Campus Towers</figcaption>
+  </figure>
+</div>
+
+
+
+
+
     </div>
   );
 }
