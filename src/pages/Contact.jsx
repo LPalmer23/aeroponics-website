@@ -20,7 +20,7 @@ function Contact() {
         <div className="contact-container">
           <h1>Volunteer With Us</h1>
           <p>
-            We're currently recruiting volunteers for Summer and Fall 2025. Let us know how you'd like to get involved!
+            We're currently recruiting volunteers for Fall 2025 and Spring 2026. Let us know how you'd like to get involved!
           </p>
 
           {!submitted ? (
