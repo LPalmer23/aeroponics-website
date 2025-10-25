@@ -1,12 +1,33 @@
-# React + Vite
+# 🌿 BU Aeroponics Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Vertical Aeroponics at Boston University** — a Campus Climate Lab–funded research project in partnership with the Institute for Global Sustainability.  
+Our team studies how small-scale, community-integrated aeroponic towers can reduce agricultural emissions, conserve water, and improve food security.
 
-Currently, two official plugins are available:
+🌱 **Live site:** [https://lpalmer23.github.io/aeroponics-website](https://lpalmer23.github.io/aeroponics-website)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 💡 Overview
+This website showcases our research, tower installations, and community partnerships.  
+We analyze why many large commercial vertical farms failed — and how smaller, low-energy systems can succeed inside existing infrastructure.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Features**
+- Project overview, research, partners, and volunteer pages  
+- Visuals highlighting tower data and growth cycles  
+- Fully responsive layout built for accessibility and clarity  
+
+---
+
+## 🧰 Tech Stack
+- **Frontend:** React + Vite + Tailwind CSS  
+- **Deployment:** GitHub Pages  
+- **Optional Libraries:** Recharts (data visuals), Leaflet (maps)
+
+---
+
+## ⚙️ Local Setup
+```bash
+git clone https://github.com/LPalmer23/aeroponics-website.git
+cd aeroponics-website
+npm install
+npm run dev
