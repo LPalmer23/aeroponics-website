@@ -32,7 +32,8 @@ Optional: Recharts for data visuals · Leaflet for maps
 git clone https://github.com/LPalmer23/aeroponics-website.git
 cd aeroponics-website
 npm install
-npm run dev
+npm run dev 
+'''
 
 ## License
 This project is licensed under the **MIT License**.  
