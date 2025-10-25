@@ -71,10 +71,10 @@ function Contact() {
                 <legend>When are you available?*</legend>
                 <div className="checkbox-options">
                   <label>
-                    <input type="checkbox" name="season" value="Summer 2025" /> Summer 2025
+                    <input type="checkbox" name="season" value="Fall 2025" /> Fall 2025
                   </label>
                   <label>
-                    <input type="checkbox" name="season" value="Fall 2025" /> Fall 2025
+                    <input type="checkbox" name="season" value="Spring 2026" /> Spring 2026
                   </label>
                 </div>
               </div>
