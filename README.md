@@ -10,6 +10,7 @@
 A Campus Climate Lab–funded research initiative in collaboration with the Institute for Global Sustainability.  
 Our team explores how small, community-integrated aeroponic towers can reduce emissions, conserve water, and improve access to fresh food.
 
+
 [![Live Site](https://img.shields.io/badge/Live_Site-Visit-green?style=flat-square)](https://lpalmer23.github.io/aeroponics-website)
 ![Built with React](https://img.shields.io/badge/Built_with-React-61DAFB?style=flat-square&logo=react)
 ![Deployed with GitHub Pages](https://img.shields.io/badge/Deployed_with-GitHub_Pages-181717?style=flat-square&logo=github)

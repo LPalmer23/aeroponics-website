@@ -28,12 +28,12 @@ function Partners() {
         </div>
 
         <div className="partner-box">
-          <h2>Community Service Center (CSC)</h2>
+          <h2>Student Leadership & Impact Center (SLIC)</h2>
           <p>
-            The CSC empowers BU students to engage with the community through service and leadership. It hosts multiple programs, including SFR, FYSOP, and Alternative Service Breaks, that align with our mission of sustainability and social impact.
+          The Student Leadership & Impact Center (SLIC) is Boston University’s hub for student leadership, service, and community engagement. Formed from the merger of the Student Activities Office (SAO) and the Community Service Center (CSC), SLIC supports initiatives that foster advocacy, collaboration, and social impact across campus and Boston.
           </p>
           <a href="https://www.bu.edu/csc/" target="_blank" rel="noopener noreferrer">
-            Visit the CSC Website
+            Visit the SLIC Website
           </a>
         </div>
       </div>
