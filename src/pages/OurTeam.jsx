@@ -2,11 +2,17 @@
 import React from "react";
 import "./OurTeam.css";
 
+import lydiaImg from "../assets/lydia.jpg";
+import siyaImg from "../assets/siya.jpg";
+import karenImg from "../assets/karen.jpg";
+import egorImg from "../assets/egor.jpg";
+import sainaImg from "../assets/saina.jpg";
+
 const team = [
   {
     name: "Lydia Palmer",
     role: "Co-Leader",
-    img: "src/assets/lydia.jpg",
+    img: lydiaImg,
     blurb:
       "Hi! I'm a junior at BU double majoring in computer science and physics with a minor in economics. Increasing access to healthy foods in nutrient-deficient communities is very important to me.",
     email: "lapalmer@bu.edu",
@@ -14,7 +20,7 @@ const team = [
   {
     name: "Siya Dahanukar",
     role: "Co-Leader",
-    img: "src/assets/siya.jpg",
+    img: siyaImg,
     blurb:
       "Hi! I am a junior studying Behavior and Health with a minor in Public Health at Sargent College. I am excited to link sustainability with community impact through our Aeroponics Project! ",
     email: "siya@bu.edu",
@@ -22,7 +28,7 @@ const team = [
   {
     name: "Karen Kong",
     role: "Lead Volunteer",
-    img: "src/assets/karen.jpg",
+    img: karenImg,
     blurb:
       "I’m a sophomore Health Science major at Boston University from New York City",
     email: "karenk6@bu.edu",
@@ -30,7 +36,7 @@ const team = [
   {
     name: "Egor Sakhabutdinov",
     role: "Volunteer",
-    img: "src/assets/egor.jpg",
+    img: egorImg,
     blurb:
       "I am a Biochemistry and Molecular Biology major at BU and I am from Pennsylvania.",
     email: "egorsakh@bu.edu",
@@ -38,7 +44,7 @@ const team = [
   {
     name: "Saina Anand",
     role: "Volunteer",
-    img: "src/assets/saina.jpg",
+    img: sainaImg,
     blurb:
       "I am an Economics and Mathematics major at BU and I am from Dubai, UAE.",
     email: "sainaand@bu.edu",
