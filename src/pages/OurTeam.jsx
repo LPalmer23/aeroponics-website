@@ -14,7 +14,7 @@ const team = [
     role: "Co-Leader",
     img: lydiaImg,
     blurb:
-      "Hi! I'm a junior at BU double majoring in computer science and physics with a minor in economics. Increasing access to healthy foods in nutrient-deficient communities is very important to me.",
+      "Hi! I'm a junior at BU double majoring in Computer Science and Physics with a minor in Economics. Increasing access to healthy foods in nutrient-deficient communities is very important to me.",
     email: "lapalmer@bu.edu",
   },
   {
